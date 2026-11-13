@@ -1,2 +1,2 @@
-# rrebtoy.github.io
-This is my project website for CIS300
+# CIS300-F26-Rebtoy
+Fish Finder website
