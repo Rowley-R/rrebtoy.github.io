@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join the Fish Finder discussion boards to talk about spots, gear, and techniques with other anglers.">
+    <title>Discussions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <h1> Fish Finder</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="map.html">Map</a></li>
+                <li><a href="discussions.html">Discussions</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="submit.html">Submit</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="intro">
+                <h2>Discussions</h2>
+                <p>
+                    Ask questions, share fishing stories, or give tips on how to be a better angler. Pick a category or jump into the latest threads below!
+                </p>
+            </section>
+            <section class="categories">
+                <h2>Categories</h2>
+                <ul class="category-list">
+                    <li>
+                        <a href="#">Fishing Reports</a>
+                        <span>Recent catches and conditions at local lakes</span>
+                    </li>
+                    <li>
+                        <a href="#">Gear and Tackle</a>
+                        <span>Rods, reels, lures, and what's worth buying</span>
+                    </li>
+                    <li>
+                        <a href="#">Techniques</a>
+                        <span>Casting, rigging, and seasonal patterns</span>
+                    </li>
+                    <li>
+                        <a href="#">Beginners Corner</a>
+                        <span>No question is too simple here</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="threads">
+                <h2>Latest Threads</h2>
+
+                <article class="thread">
+                    <h3><a href="#">Bass biting on drop shots at Saguaro?</a></h3>
+                    <p class="thread-meta">Posted by <strong>ArizonaAngler</strong> in Fishing Reports &bull; 2 hours ago</p>
+                    <p>
+                        Went out this morning and picked up four bass in about 20 feet of water on a drop shot.
+                        Anyone else having luck out there this week?
+                    </p>
+                    <p class="thread-stats">12 replies &bull; 87 views</p>
+                </article>
+            </section>
+            <section class="new-thread">
+                <h2>Start a New Thread</h2>
+                <form>
+                    <label for="thread-title">Title</label>
+                    <input type="text" id="thread-title" name="title" placeholder="What do you want to talk about?">
+
+                    <label for="thread-category">Category</label>
+                    <select id="thread-category" name="category">
+                        <option>Fishing Reports</option>
+                        <option>Gear &amp; Tackle</option>
+                        <option>Techniques</option>
+                        <option>Beginners Corner</option>
+                    </select>
+
+                    <label for="thread-message">Message</label>
+                    <textarea id="thread-message" name="message" rows="5" placeholder="Share your question or report..."></textarea>
+
+                    <button type="submit" class="submit-button">Post Thread</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p> Follow Fish Finder</p>
+            <ul>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="https://youtube.com">Youtube</a></li>
+                <li><a href="https://instagram.com">Instagram</a></li>
+                <li><a href="https://reddit.com">Reddit</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
